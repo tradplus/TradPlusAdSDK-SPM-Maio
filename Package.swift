@@ -16,7 +16,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/tradplus/TradPlusAdSDK-SPM.git",
-            .exact("15.13.0")
+            .exact("15.14.0")
         ),
         .package(
             url: "https://github.com/imobile/MaioSDK-v2-iOS.git",
@@ -36,8 +36,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "TPMaioAdapter",
-            url: "https://github.com/tradplus/TradPlusAdSDK-SPM-Maio/releases/download/15.13.0/TPMaioAdapter-15.13.0.xcframework.zip",
-            checksum: "9a939372dfdbba746837af7f322bde6d0acfc93541984884d34917e5c0e49978"
+            url: "https://github.com/tradplus/TradPlusAdSDK-SPM-Maio/releases/download/15.14.0/TPMaioAdapter-15.14.0.xcframework.zip",
+            checksum: "b79d60f9170f4e765971ab14cbab57f5ae5d479549bf7c85ed05fbac1e526b42"
         ),
     ]
 )
