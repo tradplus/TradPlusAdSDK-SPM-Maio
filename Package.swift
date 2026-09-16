@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.5
 
 import PackageDescription
 
@@ -16,7 +16,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/tradplus/TradPlusAdSDK-SPM.git",
-            .exact("15.14.0")
+            .exact("15.15.0")
         ),
         .package(
             url: "https://github.com/imobile/MaioSDK-v2-iOS.git",
@@ -36,8 +36,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "TPMaioAdapter",
-            url: "https://github.com/tradplus/TradPlusAdSDK-SPM-Maio/releases/download/15.14.0/TPMaioAdapter-15.14.0.xcframework.zip",
-            checksum: "b79d60f9170f4e765971ab14cbab57f5ae5d479549bf7c85ed05fbac1e526b42"
+            url: "https://github.com/tradplus/TradPlusAdSDK-SPM-Maio/releases/download/15.15.0/TPMaioAdapter-15.15.0.xcframework.zip",
+            checksum: "2cb788f011ffedf4b4bd0b95b591e8f13cd397960fd3dca6dd1305e84e0e7bc5"
         ),
     ]
 )
